@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3192B081FE8BE3A00BC6B28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B071FE8BE3A00BC6B28 /* main.m */; };
+		D3192B0B1FE8BE3A00BC6B28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B0A1FE8BE3A00BC6B28 /* AppDelegate.m */; };
+		D3192B0E1FE8BE3A00BC6B28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B0D1FE8BE3A00BC6B28 /* ViewController.m */; };
+		D3192B111FE8BE3A00BC6B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3192B0F1FE8BE3A00BC6B28 /* Main.storyboard */; };
+		D3192B131FE8BE3A00BC6B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3192B121FE8BE3A00BC6B28 /* Assets.xcassets */; };
+		D3192B161FE8BE3A00BC6B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3192B141FE8BE3A00BC6B28 /* LaunchScreen.storyboard */; };
+		D3192B211FE8BE3A00BC6B28 /* ChatLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B201FE8BE3A00BC6B28 /* ChatLiveTests.m */; };
+		D3192B2D1FE8C74100BC6B28 /* AJChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B2C1FE8C74100BC6B28 /* AJChatViewController.m */; };
+		D3192B301FE8D2FC00BC6B28 /* AJChatTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B2F1FE8D2FC00BC6B28 /* AJChatTable.m */; };
+		D3192B331FE8D3C300BC6B28 /* AJChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B321FE8D3C300BC6B28 /* AJChatMessage.m */; };
+		D3192B3A1FE8D96900BC6B28 /* AJChatAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3192B391FE8D96900BC6B28 /* AJChatAssets.xcassets */; };
+		D3192B3D1FE8DC5600BC6B28 /* AJChatAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B3C1FE8DC5600BC6B28 /* AJChatAttachment.m */; };
+		D3192B411FE8F1C000BC6B28 /* AJChatViewCelloutGoing.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B3F1FE8F1C000BC6B28 /* AJChatViewCelloutGoing.m */; };
+		D3192B421FE8F1C000BC6B28 /* AJChatViewCelloutGoing.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3192B401FE8F1C000BC6B28 /* AJChatViewCelloutGoing.xib */; };
+		D3192B4C1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B4A1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.m */; };
+		D3192B4D1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3192B4B1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.xib */; };
+		D3192B501FE9174D00BC6B28 /* SelfSizingMaxWidthCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B4F1FE9174D00BC6B28 /* SelfSizingMaxWidthCollectionViewCell.m */; };
+		D3192B521FE91AB500BC6B28 /* deal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3192B511FE91AB500BC6B28 /* deal.jpg */; };
+		D3192B561FE9243200BC6B28 /* AJChatReplyViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B541FE9243200BC6B28 /* AJChatReplyViewCell.m */; };
+		D3192B571FE9243200BC6B28 /* AJChatReplyViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3192B551FE9243200BC6B28 /* AJChatReplyViewCell.xib */; };
+		D3192B5A1FE9246C00BC6B28 /* AJQuoteChat.m in Sources */ = {isa = PBXBuildFile; fileRef = D3192B591FE9246C00BC6B28 /* AJQuoteChat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3192B1D1FE8BE3A00BC6B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3192AFB1FE8BE3A00BC6B28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3192B021FE8BE3A00BC6B28;
+			remoteInfo = ChatLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3192B031FE8BE3A00BC6B28 /* ChatLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3192B071FE8BE3A00BC6B28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3192B091FE8BE3A00BC6B28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3192B0A1FE8BE3A00BC6B28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3192B0C1FE8BE3A00BC6B28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3192B0D1FE8BE3A00BC6B28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3192B101FE8BE3A00BC6B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3192B121FE8BE3A00BC6B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3192B151FE8BE3A00BC6B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3192B171FE8BE3A00BC6B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3192B1C1FE8BE3A00BC6B28 /* ChatLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3192B201FE8BE3A00BC6B28 /* ChatLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatLiveTests.m; sourceTree = "<group>"; };
+		D3192B221FE8BE3A00BC6B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3192B2B1FE8C74100BC6B28 /* AJChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJChatViewController.h; sourceTree = "<group>"; };
+		D3192B2C1FE8C74100BC6B28 /* AJChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJChatViewController.m; sourceTree = "<group>"; };
+		D3192B2E1FE8D2FC00BC6B28 /* AJChatTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJChatTable.h; sourceTree = "<group>"; };
+		D3192B2F1FE8D2FC00BC6B28 /* AJChatTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJChatTable.m; sourceTree = "<group>"; };
+		D3192B311FE8D3C300BC6B28 /* AJChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJChatMessage.h; sourceTree = "<group>"; };
+		D3192B321FE8D3C300BC6B28 /* AJChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJChatMessage.m; sourceTree = "<group>"; };
+		D3192B391FE8D96900BC6B28 /* AJChatAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AJChatAssets.xcassets; sourceTree = "<group>"; };
+		D3192B3B1FE8DC5600BC6B28 /* AJChatAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJChatAttachment.h; sourceTree = "<group>"; };
+		D3192B3C1FE8DC5600BC6B28 /* AJChatAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJChatAttachment.m; sourceTree = "<group>"; };
+		D3192B3E1FE8F1C000BC6B28 /* AJChatViewCelloutGoing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJChatViewCelloutGoing.h; sourceTree = "<group>"; };
+		D3192B3F1FE8F1C000BC6B28 /* AJChatViewCelloutGoing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJChatViewCelloutGoing.m; sourceTree = "<group>"; };
+		D3192B401FE8F1C000BC6B28 /* AJChatViewCelloutGoing.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AJChatViewCelloutGoing.xib; sourceTree = "<group>"; };
+		D3192B491FE914E900BC6B28 /* AJChatImageViewCelloutGoing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJChatImageViewCelloutGoing.h; sourceTree = "<group>"; };
+		D3192B4A1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJChatImageViewCelloutGoing.m; sourceTree = "<group>"; };
+		D3192B4B1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AJChatImageViewCelloutGoing.xib; sourceTree = "<group>"; };
+		D3192B4E1FE9174D00BC6B28 /* SelfSizingMaxWidthCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSizingMaxWidthCollectionViewCell.h; sourceTree = "<group>"; };
+		D3192B4F1FE9174D00BC6B28 /* SelfSizingMaxWidthCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSizingMaxWidthCollectionViewCell.m; sourceTree = "<group>"; };
+		D3192B511FE91AB500BC6B28 /* deal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deal.jpg; sourceTree = "<group>"; };
+		D3192B531FE9243200BC6B28 /* AJChatReplyViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJChatReplyViewCell.h; sourceTree = "<group>"; };
+		D3192B541FE9243200BC6B28 /* AJChatReplyViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJChatReplyViewCell.m; sourceTree = "<group>"; };
+		D3192B551FE9243200BC6B28 /* AJChatReplyViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AJChatReplyViewCell.xib; sourceTree = "<group>"; };
+		D3192B581FE9246C00BC6B28 /* AJQuoteChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJQuoteChat.h; sourceTree = "<group>"; };
+		D3192B591FE9246C00BC6B28 /* AJQuoteChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJQuoteChat.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3192B001FE8BE3A00BC6B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3192B191FE8BE3A00BC6B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3192AFA1FE8BE3A00BC6B28 = {
+			isa = PBXGroup;
+			children = (
+				D3192B051FE8BE3A00BC6B28 /* ChatLive */,
+				D3192B1F1FE8BE3A00BC6B28 /* ChatLiveTests */,
+				D3192B041FE8BE3A00BC6B28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3192B041FE8BE3A00BC6B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3192B031FE8BE3A00BC6B28 /* ChatLive.app */,
+				D3192B1C1FE8BE3A00BC6B28 /* ChatLiveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3192B051FE8BE3A00BC6B28 /* ChatLive */ = {
+			isa = PBXGroup;
+			children = (
+				D3192B511FE91AB500BC6B28 /* deal.jpg */,
+				D3192B091FE8BE3A00BC6B28 /* AppDelegate.h */,
+				D3192B0A1FE8BE3A00BC6B28 /* AppDelegate.m */,
+				D3192B2B1FE8C74100BC6B28 /* AJChatViewController.h */,
+				D3192B2C1FE8C74100BC6B28 /* AJChatViewController.m */,
+				D3192B2E1FE8D2FC00BC6B28 /* AJChatTable.h */,
+				D3192B2F1FE8D2FC00BC6B28 /* AJChatTable.m */,
+				D3192B311FE8D3C300BC6B28 /* AJChatMessage.h */,
+				D3192B321FE8D3C300BC6B28 /* AJChatMessage.m */,
+				D3192B3B1FE8DC5600BC6B28 /* AJChatAttachment.h */,
+				D3192B3C1FE8DC5600BC6B28 /* AJChatAttachment.m */,
+				D3192B481FE914A700BC6B28 /* cell messages */,
+				D3192B391FE8D96900BC6B28 /* AJChatAssets.xcassets */,
+				D3192B0C1FE8BE3A00BC6B28 /* ViewController.h */,
+				D3192B0D1FE8BE3A00BC6B28 /* ViewController.m */,
+				D3192B0F1FE8BE3A00BC6B28 /* Main.storyboard */,
+				D3192B121FE8BE3A00BC6B28 /* Assets.xcassets */,
+				D3192B141FE8BE3A00BC6B28 /* LaunchScreen.storyboard */,
+				D3192B171FE8BE3A00BC6B28 /* Info.plist */,
+				D3192B061FE8BE3A00BC6B28 /* Supporting Files */,
+			);
+			path = ChatLive;
+			sourceTree = "<group>";
+		};
+		D3192B061FE8BE3A00BC6B28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3192B071FE8BE3A00BC6B28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3192B1F1FE8BE3A00BC6B28 /* ChatLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3192B201FE8BE3A00BC6B28 /* ChatLiveTests.m */,
+				D3192B221FE8BE3A00BC6B28 /* Info.plist */,
+			);
+			path = ChatLiveTests;
+			sourceTree = "<group>";
+		};
+		D3192B481FE914A700BC6B28 /* cell messages */ = {
+			isa = PBXGroup;
+			children = (
+				D3192B3E1FE8F1C000BC6B28 /* AJChatViewCelloutGoing.h */,
+				D3192B3F1FE8F1C000BC6B28 /* AJChatViewCelloutGoing.m */,
+				D3192B401FE8F1C000BC6B28 /* AJChatViewCelloutGoing.xib */,
+				D3192B491FE914E900BC6B28 /* AJChatImageViewCelloutGoing.h */,
+				D3192B4A1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.m */,
+				D3192B4B1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.xib */,
+				D3192B4E1FE9174D00BC6B28 /* SelfSizingMaxWidthCollectionViewCell.h */,
+				D3192B4F1FE9174D00BC6B28 /* SelfSizingMaxWidthCollectionViewCell.m */,
+				D3192B531FE9243200BC6B28 /* AJChatReplyViewCell.h */,
+				D3192B541FE9243200BC6B28 /* AJChatReplyViewCell.m */,
+				D3192B551FE9243200BC6B28 /* AJChatReplyViewCell.xib */,
+				D3192B581FE9246C00BC6B28 /* AJQuoteChat.h */,
+				D3192B591FE9246C00BC6B28 /* AJQuoteChat.m */,
+			);
+			name = "cell messages";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3192B021FE8BE3A00BC6B28 /* ChatLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3192B251FE8BE3A00BC6B28 /* Build configuration list for PBXNativeTarget "ChatLive" */;
+			buildPhases = (
+				D3192AFF1FE8BE3A00BC6B28 /* Sources */,
+				D3192B001FE8BE3A00BC6B28 /* Frameworks */,
+				D3192B011FE8BE3A00BC6B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatLive;
+			productName = ChatLive;
+			productReference = D3192B031FE8BE3A00BC6B28 /* ChatLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3192B1B1FE8BE3A00BC6B28 /* ChatLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3192B281FE8BE3A00BC6B28 /* Build configuration list for PBXNativeTarget "ChatLiveTests" */;
+			buildPhases = (
+				D3192B181FE8BE3A00BC6B28 /* Sources */,
+				D3192B191FE8BE3A00BC6B28 /* Frameworks */,
+				D3192B1A1FE8BE3A00BC6B28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3192B1E1FE8BE3A00BC6B28 /* PBXTargetDependency */,
+			);
+			name = ChatLiveTests;
+			productName = ChatLiveTests;
+			productReference = D3192B1C1FE8BE3A00BC6B28 /* ChatLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3192AFB1FE8BE3A00BC6B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = originesia;
+				TargetAttributes = {
+					D3192B021FE8BE3A00BC6B28 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D3192B1B1FE8BE3A00BC6B28 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3192B021FE8BE3A00BC6B28;
+					};
+				};
+			};
+			buildConfigurationList = D3192AFE1FE8BE3A00BC6B28 /* Build configuration list for PBXProject "ChatLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3192AFA1FE8BE3A00BC6B28;
+			productRefGroup = D3192B041FE8BE3A00BC6B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3192B021FE8BE3A00BC6B28 /* ChatLive */,
+				D3192B1B1FE8BE3A00BC6B28 /* ChatLiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3192B011FE8BE3A00BC6B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3192B4D1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.xib in Resources */,
+				D3192B161FE8BE3A00BC6B28 /* LaunchScreen.storyboard in Resources */,
+				D3192B571FE9243200BC6B28 /* AJChatReplyViewCell.xib in Resources */,
+				D3192B421FE8F1C000BC6B28 /* AJChatViewCelloutGoing.xib in Resources */,
+				D3192B131FE8BE3A00BC6B28 /* Assets.xcassets in Resources */,
+				D3192B521FE91AB500BC6B28 /* deal.jpg in Resources */,
+				D3192B3A1FE8D96900BC6B28 /* AJChatAssets.xcassets in Resources */,
+				D3192B111FE8BE3A00BC6B28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3192B1A1FE8BE3A00BC6B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3192AFF1FE8BE3A00BC6B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3192B3D1FE8DC5600BC6B28 /* AJChatAttachment.m in Sources */,
+				D3192B331FE8D3C300BC6B28 /* AJChatMessage.m in Sources */,
+				D3192B561FE9243200BC6B28 /* AJChatReplyViewCell.m in Sources */,
+				D3192B0E1FE8BE3A00BC6B28 /* ViewController.m in Sources */,
+				D3192B0B1FE8BE3A00BC6B28 /* AppDelegate.m in Sources */,
+				D3192B301FE8D2FC00BC6B28 /* AJChatTable.m in Sources */,
+				D3192B081FE8BE3A00BC6B28 /* main.m in Sources */,
+				D3192B501FE9174D00BC6B28 /* SelfSizingMaxWidthCollectionViewCell.m in Sources */,
+				D3192B2D1FE8C74100BC6B28 /* AJChatViewController.m in Sources */,
+				D3192B5A1FE9246C00BC6B28 /* AJQuoteChat.m in Sources */,
+				D3192B411FE8F1C000BC6B28 /* AJChatViewCelloutGoing.m in Sources */,
+				D3192B4C1FE914E900BC6B28 /* AJChatImageViewCelloutGoing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3192B181FE8BE3A00BC6B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3192B211FE8BE3A00BC6B28 /* ChatLiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3192B1E1FE8BE3A00BC6B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3192B021FE8BE3A00BC6B28 /* ChatLive */;
+			targetProxy = D3192B1D1FE8BE3A00BC6B28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3192B0F1FE8BE3A00BC6B28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3192B101FE8BE3A00BC6B28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3192B141FE8BE3A00BC6B28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3192B151FE8BE3A00BC6B28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3192B231FE8BE3A00BC6B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3192B241FE8BE3A00BC6B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3192B261FE8BE3A00BC6B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.chatlive.ChatLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3192B271FE8BE3A00BC6B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChatLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.chatlive.ChatLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3192B291FE8BE3A00BC6B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.chatlive.ChatLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatLive.app/ChatLive";
+			};
+			name = Debug;
+		};
+		D3192B2A1FE8BE3A00BC6B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.originesia.chatlive.ChatLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatLive.app/ChatLive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3192AFE1FE8BE3A00BC6B28 /* Build configuration list for PBXProject "ChatLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3192B231FE8BE3A00BC6B28 /* Debug */,
+				D3192B241FE8BE3A00BC6B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3192B251FE8BE3A00BC6B28 /* Build configuration list for PBXNativeTarget "ChatLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3192B261FE8BE3A00BC6B28 /* Debug */,
+				D3192B271FE8BE3A00BC6B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3192B281FE8BE3A00BC6B28 /* Build configuration list for PBXNativeTarget "ChatLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3192B291FE8BE3A00BC6B28 /* Debug */,
+				D3192B2A1FE8BE3A00BC6B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3192AFB1FE8BE3A00BC6B28 /* Project object */;
+}
